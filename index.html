@@ -1,37 +1,597 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <link rel="stylesheet" href="styl.css"/>
-    <title>Basic Calculator</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Portfolio-Chaithra Shree</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/fontawesome.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glightbox/dist/css/glightbox.min.css" />
+    <script src="https://cdn.jsdelivr.net/gh/mcstudios/glightbox/dist/js/glightbox.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div class="calculator">
-        <div class="boxer" id="boxer">Calculator</div>
-        <div class="display" id="display">0</div>
-        <button class="btn" id="clear">C</button>
-        <button class="btn" id="backspace">←</button>
-        <button class="btn" id="divide">/</button>
-        <button class="btn" id="multiply">*</button>
-        <button class="btn" id="7">7</button>
-        <button class="btn" id="8">8</button>
-        <button class="btn" id="9">9</button>
-        <button class="btn" id="subtract">-</button>
-        <button class="btn" id="4">4</button>
-        <button class="btn" id="5">5</button>
-        <button class="btn" id="6">6</button>
-        <button class="btn" id="decimal">.</button>
-        <button class="btn" id="1">1</button>
-        <button class="btn" id="2">2</button>
-        <button class="btn" id="3">3</button>
-        <button class="btn" id="add">+</button>
-        <button class="btn" id="0">0</button>
-        <button class="btn" id="equals">=</button>
-        <div class="display2" id="display2">
-            Made By chaithrashree For CodSoft Web Development Internship Level 1: Task 3
-        </div>
+<!-- ////////////////////////////////////////////////////////////////////////////////////////
+                               START SECTION 1 - THE NAVBAR SECTION  
+/////////////////////////////////////////////////////////////////////////////////////////////-->
+<nav class="navbar navbar-expand-lg navbar-dark menu shadow fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="">
+        <h3>Chaithra Shree</h3>
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <ul class="navbar-nav">
+   
+        </ul>
+        <button type="button" class="rounded-pill btn-rounded">
+          8147332142
+          <span>
+            <i class="fas fa-phone-alt"></i>
+          </span>
+        </button>
+      </div>
     </div>
-    <script src="script.js"></script>
+  </nav>
+
+<!-- /////////////////////////////////////////////////////////////////////////////////////////////////
+                            START SECTION 2 - THE INTRO SECTION  
+/////////////////////////////////////////////////////////////////////////////////////////////////////-->
+
+<section id="home" class="intro-section">
+  <div class="container">
+    <div class="row align-items-center text-white">
+      <!-- START THE CONTENT FOR THE INTRO  -->
+      <div class="col-md-6 intros text-start">
+        <h1 class="display-2">
+          <span class="display-2--intro">Hey!, I'm Chaithra</span>
+          <span class="display-2--description lh-base">
+            I am passionate learner, Interested in Fullstack Development and Artificial intelligence.
+          </span>
+        </h1>
+ 
+      </div>
+      <!-- START THE CONTENT FOR THE VIDEO -->
+      <div class="col-md-6 intros text-end">
+    
+          <img src="imggg.jpeg" alt="video illutration" class="img-fluid">
+        
+        </div>
+      </div>
+    </div>
+  </div>
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#ffffff" fill-opacity="1" d="M0,160L48,176C96,192,192,224,288,208C384,192,480,128,576,133.3C672,139,768,213,864,202.7C960,192,1056,96,1152,74.7C1248,53,1344,107,1392,133.3L1440,160L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path></svg>
+</section>
+
+<!-- //////////////////////////////////////////////////////////////////////////////////////////////
+                             START SECTION 3 - THE CAMPANIES SECTION  
+////////////////////////////////////////////////////////////////////////////////////////////////////-->
+
+  <section id="campanies" class="campanies">
+    <div class="container">
+      <div class="row text-center">
+        <h4 class="fw-bold lead mb-3">I am familiar with</h4>
+        <div class="heading-line mb-5"></div>
+      </div>
+    </div>
+    <!-- START THE CAMPANIES CONTENT  -->
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4 col-lg-2">
+          <div class="campanies__logo-box shadow-sm">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg" />  
+            Python  
+                </div>
+        </div>
+        <div class="col-md-4 col-lg-2">
+          <div class="campanies__logo-box shadow-sm">
+
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" />
+            Javascript
+              </div>      
+        </div>
+        <div class="col-md-4 col-lg-2">
+          <div class="campanies__logo-box shadow-sm">
+
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/cplusplus/cplusplus-original.svg" />
+            C++
+                </div>    
+        </div>
+
+        <div class="col-md-4 col-lg-2">
+          <div class="campanies__logo-box shadow-sm">
+
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg" />HTML
+                    </div>
+        </div>
+        <div class="col-md-4 col-lg-2">
+          <div class="campanies__logo-box shadow-sm">
+
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original.svg" />Java
+                    </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+<!-- //////////////////////////////////////////////////////////////////////////////////////////////
+                         START SECTION 4 - THE SERVICES  
+///////////////////////////////////////////////////////////////////////////////////////////////////-->
+<section id="services" class="services">
+  <div class="container">
+    <div class="row text-center">
+      <h1 class="display-3 fw-bold">Done certified courses like</h1>
+      <div class="heading-line mb-1"></div>
+    </div>
+  <!-- START THE DESCRIPTION CONTENT  -->
+    <div class="row pt-2 pb-2 mt-0 mb-3">
+      <div class="col-md-6 border-right">
+        <div class="bg-white p-3">
+          <h2 class="fw-bold text-capitalize text-center">
+            I have done certified courses on various topics.
+          </h2>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="bg-white p-4 text-start">
+          <p class="fw-light">
+           I strive to keep updated with the changes in the technological field and to gain knowledge about the programming languages and computer fundamentals.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- START THE CONTENT FOR THE SERVICES  -->
+  <div class="container">
+    <!-- START THE MARKETING CONTENT  -->
+    <div class="row">
+      <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 services mt-4">
+        <div class="services__content">
+          <div class="icon d-block fas fa-paper-plane"></div>
+          <h3 class="display-3--title mt-1">QSpiders -Software Testing
+          </h3>
+          <p class="lh-lg">
+            "QSpiders is a renowned training institute specializing in software testing and development. It offers comprehensive training programs designed to equip students with the necessary skills and knowledge to excel in the IT industry.I completed a course in [specific course, e.g.Manual testing,java,Automation Testing] at QSpiders, where I gained hands-on experience with tools like Selenium . The training program was designed by industry experts and included real-time projects and mock interviews, which prepared me well for the job market. The placement assistance provided by QSpiders helped me connect with top IT companies and improved my interview skills significantly."
+          </p>
+        
+        </div>
+      </div>
+      <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 services mt-4 text-end">
+        <div class="services__pic">
+          <img src="qqimg.jfif" height="500" width="450" class="img-fluid">
+        </div>
+      </div>
+    </div>
+    <!-- START THE WEB DEVELOPMENT CONTENT  -->
+    <div class="row">
+      <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 services mt-4 text-start">
+        <div class="services__pic">
+          <img src="forimg.png" alt="web development illustration" class="img-fluid">
+        </div>
+      </div>
+      <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 services mt-4">
+        <div class="services__content">
+          <div class="icon d-block fas fa-code"></div>
+          <h3 class="display-3--title mt-1">Forage</h3>
+          <p class="lh-lg">
+            Forage is an online learning platform that offers virtual experience programs designed to provide students and early career professionals with real-world skills and insights from leading companies. The platform focuses on providing practical, hands-on experience through simulated tasks and projects, often in collaboration with renowned industry partners.
+          
+          </p>
+     
+        </div>
+      </div>
+    </div>
+    <!-- START THE CLOUD HOSTING CONTENT  -->
+    <div class="row">
+      <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 services mt-4">
+        <div class="services__content">
+          <div class="icon d-block fas fa-cloud-upload-alt"></div>
+          <h3 class="display-3--title mt-1">HTML, CSS, JavaScript By Geekster
+          </h3>
+          <p class="lh-lg">
+            
+"HTML, CSS, JavaScript By Geekster" The course was designed by industry experts and included real-time projects that helped me build a strong portfolio. The live classes and personalized mentorship provided valuable guidance, and the placement assistance helped me prepare for and secure job interviews with top tech companies.
+          </p>
+ 
+        </div>
+      </div>
+      <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 services mt-4 text-end"><br><br><br><br><br>
+        <div class="services__pic">
+          <img src="geekimg.png" alt="cloud hosting illustration" class="img-fluid">
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ////////////////////////////////////////////////////////////////////////////////////////////////
+                               START SECTION 5 - THE TESTIMONIALS  
+/////////////////////////////////////////////////////////////////////////////////////////////////////-->
+<section id="testimonials" class="testimonials">
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#fff" fill-opacity="1" d="M0,96L48,128C96,160,192,224,288,213.3C384,203,480,117,576,117.3C672,117,768,203,864,202.7C960,203,1056,117,1152,117.3C1248,117,1344,203,1392,245.3L1440,288L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z"></path></svg>
+  <div class="container">
+    <div class="row text-center text-white">
+      <h1 class="display-3 fw-bold">Interested in</h1>
+      <hr style="width: 100px; height: 3px; " class="mx-auto">
+      <p class="lead pt-1">Why i find them interseting </p>
+    </div>
+
+    <!-- START THE CAROUSEL CONTENT  -->
+    <div class="row align-items-center">
+      <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <!-- CAROUSEL ITEM 1 -->
+          <div class="carousel-item active">
+            <!-- testimonials card  -->
+            <div class="testimonials__card">
+              <p class="lh-lg">
+                <i class="fas fa-quote-left"></i> 
+"Artificial intelligence is the future, and the future is here." - Alan Turing
+                <i class="fas fa-quote-right"></i>
+                <div class="ratings p-1">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                </div>
+              </p>
+            </div>
+            <!-- client picture  -->
+            <div class="testimonials__picture">
+
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/godot/godot-original.svg" />
+            </div>
+            <!-- client name & role  -->
+            <div class="testimonials__name">
+              <h3>Artificial intelligence</h3>
+       
+            </div>
+          </div>     
+          <!-- CAROUSEL ITEM 2 -->
+          <div class="carousel-item">
+            <!-- testimonials card  -->
+            <div class="testimonials__card">
+              <p class="lh-lg">
+                <i class="fas fa-quote-left"></i>
+"Deep learning is the rocket fuel propelling us into a new era of intelligent machines, where complex tasks become as simple as recognizing a face in a crowd." - Andrew Ng
+                <i class="fas fa-quote-right"></i>
+                <div class="ratings p-1">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                </div>
+              </p>
+            </div>
+            <!-- client picture  -->
+            
+            
+            <div class="testimonials__picture">
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/sourcetree/sourcetree-original.svg" />
+
+            </div>
+            <!-- client name & role  -->
+            <div class="testimonials__name">
+              <h3>deep learning</h3>
+            </div>
+          </div>     
+          <!-- CAROUSEL ITEM 3 -->
+          <div class="carousel-item">
+            <!-- testimonials card  -->
+            <div class="testimonials__card">
+              <p class="lh-lg">
+                <i class="fas fa-quote-left"></i>
+                "Machine learning is like a multi-faceted gem, revealing patterns in data that empower us to make better decisions." - Pedro Domingos
+                
+                
+                <i class="fas fa-quote-right"></i>
+                <div class="ratings p-1">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                </div>
+              </p>
+            </div>
+            <!-- client picture  -->
+            <div class="testimonials__picture">
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/elm/elm-original.svg" />
+            </div>
+            <!-- client name & role  -->
+            <div class="testimonials__name">
+
+              <h3>Machine Learning</h3>
+            </div>
+          </div>     
+          <!-- CAROUSEL ITEM 4 -->
+          <div class="carousel-item">
+            <!-- testimonials card  -->
+            <div class="testimonials__card">
+              <p class="lh-lg">
+                <i class="fas fa-quote-left"></i>
+                "Full-stack development is the art of weaving together the fabric of technology, from server to client, creating seamless digital experiences." - Unknown
+                <i class="fas fa-quote-right"></i>
+                <div class="ratings p-1">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                </div>
+              </p>
+            </div>
+            <!-- client picture  -->
+            <div class="testimonials__picture">
+
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/sqldeveloper/sqldeveloper-original.svg" />
+            </div>
+            <!-- client name & role  -->
+            <div class="testimonials__name">
+              <h3>FullStack Development</h3>
+     
+            </div>
+          </div>  
+           <!-- CAROUSEL ITEM 5 -->
+           <div class="carousel-item">
+            <!-- testimonials card  -->
+            <div class="testimonials__card">
+              <p class="lh-lg">
+                <i class="fas fa-quote-left"></i>
+                "A blockchain developer develops decentralized applications (dApps) and smart contracts based on blockchain technology, as well as understanding the architecture and protocols of the technology. They are responsible for developing 3D models, 3D designs, and 3D content such as that used in games."
+                <i class="fas fa-quote-right"></i>
+                <div class="ratings p-1">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                </div>
+              </p>
+            </div>
+            <!-- client picture  -->
+            <div class="testimonials__picture">
+
+              <img src="https://cdn-icons-png.flaticon.com/128/1349/1349733.png" height="60" />
+            </div>
+            <!-- client name & role  -->
+            <div class="testimonials__name">
+              <h3>Block Chain Developer </h3>
+     
+            </div>
+          </div>    
+        </div>
+        <div class="text-center">
+          <button class="btn btn-outline-light fas fa-long-arrow-alt-left" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+        </button>
+        <button class="btn btn-outline-light fas fa-long-arrow-alt-right" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+        </button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#fff" fill-opacity="1" d="M0,96L48,128C96,160,192,224,288,213.3C384,203,480,117,576,117.3C672,117,768,203,864,202.7C960,203,1056,117,1152,117.3C1248,117,1344,203,1392,245.3L1440,288L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path></svg>
+</section>
+
+<!-- ///////////////////////////////////////////////////////////////////////////////////////////////////
+                              START SECTION 7 - THE PORTFOLIO  
+//////////////////////////////////////////////////////////////////////////////////////////////////////-->
+
+<section id="portfolio" class="portfolio">
+  <div class="container">
+    <div class="row text-center mt-5">
+      <h1 class="display-3 fw-bold text-capitalize">Hobbies</h1>
+      <div class="heading-line"></div>
+      <p class="lead">
+        "Hobbies are the threads that weave the fabric of our souls, adding color, texture, and depth to the tapestry of life." - Unknown
+      </p>
+    </div>
+    <!-- FILTER BUTTONS  -->
+
+
+    <!-- START THE PORTFOLIO ITEMS  -->
+    <div class="row">
+      <div class="col-lg-4 col-md-6">
+        <div class="portfolio-box shadow">
+          <img src="https://i.pinimg.com/originals/90/54/c9/9054c9c03e80bf1c008c66a413467a0f.jpg" alt="portfolio 1 image" title="portfolio 1 picture" class="img-fluid">
+          <div class="portfolio-info">
+            <div class="caption">
+              <h4>Reading</h4>
+          
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6">
+        <div class="portfolio-box shadow">
+          <img src="https://www.creativefabrica.com/wp-content/uploads/2023/04/08/Cat-riding-a-bike-vector-illustration-Graphics-66588708-1.jpg" alt="portfolio 2 image" title="portfolio 2 picture" class="img-fluid">
+          <div class="portfolio-info">
+            <div class="caption">
+              <h4>Cycling</h4>
+             
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6">
+        <div class="portfolio-box shadow">
+          <img src="https://kittybest.com/wp-content/uploads/2019/06/Canva-Travelling-cat-1024x683.jpg" alt="portfolio 3 image" title="portfolio 3 picture" class="img-fluid">
+          <div class="portfolio-info">
+            <div class="caption">
+              <h4>Travelling</h4>
+             
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6">
+        <div class="portfolio-box shadow">
+          <img src="http://yesofcorsa.com/wp-content/uploads/2017/03/Headphones-and-Animals-Best-Wallpaper.jpg" alt="portfolio 4 image" title="portfolio 4 picture" class="img-fluid">
+          <div class="portfolio-info">
+            <div class="caption">
+              <h4>Listening to podcasts</h4>
+             
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6">
+        <div class="portfolio-box shadow">
+          <img src="https://cdn.acidcow.com/pics/20101122/pets_watching_tv_03.jpg" alt="portfolio 5 image" title="portfolio 5 picture" class="img-fluid">
+          <div class="portfolio-info">
+            <div class="caption">
+              <h4>Watching documentaries</h4>
+             
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6">
+        <div class="portfolio-box shadow">
+          <img src="https://outdoorfamiliesonline.com/wp-content/uploads/gardening-with-kids-3.jpg" alt="portfolio 6 image" title="portfolio 6 picture" class="img-fluid">
+          <div class="portfolio-info">
+            <div class="caption">
+              <h4>Gardening</h4>
+          
+            </div>
+          </div>
+        </div>
+      </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- /////////////////////////////////////////////////////////////////////////////////////////////////////////
+              START SECTION 8 - GET STARTED  
+/////////////////////////////////////////////////////////////////////////////////////////////////////////-->
+
+<!-- ///////////////////////////////////////////////////////////////////////////////////////////
+                           START SECTION 9 - THE FOOTER  
+///////////////////////////////////////////////////////////////////////////////////////////////-->
+<footer class="footer">
+  <div class="container">
+    <div class="row">
+      <!-- CONTENT FOR THE MOBILE NUMBER  -->
+      <div class="col-md-4 col-lg-4 contact-box pt-1 d-md-block d-lg-flex d-flex">
+        <div class="contact-box__icon">
+          <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-phone-call" viewBox="0 0 24 24" stroke-width="1" fill="none" stroke-linecap="round" stroke-linejoin="round">
+            <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+            <path d="M5 4h4l2 5l-2.5 1.5a11 11 0 0 0 5 5l1.5 -2.5l5 2v4a2 2 0 0 1 -2 2a16 16 0 0 1 -15 -15a2 2 0 0 1 2 -2" />
+            <path d="M15 7a2 2 0 0 1 2 2" />
+            <path d="M15 3a6 6 0 0 1 6 6" />
+          </svg>
+        </div>
+        <div class="contact-box__info">
+          <a href="#" class="contact-box__info--title">+91-8147332142</a>
+          <p class="contact-box__info--subtitle">  Mon-Fri 9am-6pm</p>
+        </div>
+      </div>  
+      <!-- CONTENT FOR EMAIL  -->
+      <div class="col-md-4 col-lg-4 contact-box pt-1 d-md-block d-lg-flex d-flex">
+        <div class="contact-box__icon">
+          <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-mail-opened" viewBox="0 0 24 24" stroke-width="1" fill="none" stroke-linecap="round" stroke-linejoin="round">
+            <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+            <polyline points="3 9 12 15 21 9 12 3 3 9" />
+            <path d="M21 9v10a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2v-10" />
+            <line x1="3" y1="19" x2="9" y2="13" />
+            <line x1="15" y1="13" x2="21" y2="19" />
+          </svg>
+        </div>
+        <div class="contact-box__info">
+          <a href="#" class="contact-box__info--title">chaithrashree311@gmail.com</a>
+          <p class="contact-box__info--subtitle">Online support</p>
+        </div>
+      </div>
+      <!-- CONTENT FOR LOCATION  -->
+      <div class="col-md-4 col-lg-4 contact-box pt-1 d-md-block d-lg-flex d-flex">
+        <div class="contact-box__icon">
+          <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-map-2" viewBox="0 0 24 24" stroke-width="1" fill="none" stroke-linecap="round" stroke-linejoin="round">
+            <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+            <line x1="18" y1="6" x2="18" y2="6.01" />
+            <path d="M18 13l-3.5 -5a4 4 0 1 1 7 0l-3.5 5" />
+            <polyline points="10.5 4.75 9 4 3 7 3 20 9 17 15 20 21 17 21 15" />
+            <line x1="9" y1="4" x2="9" y2="17" />
+            <line x1="15" y1="15" x2="15" y2="20" />
+          </svg>
+        </div>
+        <div class="contact-box__info">
+          <a href="#" class="contact-box__info--title">Tumakuru, KA</a>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- START THE SOCIAL MEDIA CONTENT  -->
+  <div class="footer-sm" style="background-color: #212121;">
+    <div class="container">
+      <div class="row py-4 text-center text-white">
+        <div class="col-lg-5 col-md-6 mb-4 mb-md-0">
+          connect with us on social media
+        </div>
+        <div class="col-lg-7 col-md-6">
+          <a href="#"><i class="fab fa-facebook"></i></a>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+          <a href="https://github.com/chaithrashree31"><i class="fab fa-github"></i></a>
+          <a href="https://www.linkedin.com/in/chaithra2001?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i class="fab fa-linkedin"></i></a>
+          <a href="https://www.instagram.com/chaithra.prakash1?igsh=MWRrOHIydjc4djNqdA=="><i class="fab fa-instagram"></i></a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- START THE CONTENT FOR THE CAMPANY INFO -->
+
+
+
+  <!-- START THE COPYRIGHT INFO  -->
+  <div class="footer-bottom pt-5 pb-5">
+    <div class="container">
+      <div class="row text-center text-white">
+        <div class="col-12">
+          <div class="footer-bottom__copyright">
+            &COPY; Copyright 2024 <a href="#">Company</a> | Created by <a href="http://codewithpatrick.com" target="_blank">ChaithraShree P</a><br><br>
+
+            Distributed using <a href="http://themewagon.com" target="_blank">Github</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<!-- BACK TO TOP BUTTON  -->
+<a href="#" class="shadow btn-primary rounded-circle back-to-top">
+  <i class="fas fa-chevron-up"></i>
+</a>
+
+
+
+   
+    <script src="assets/vendors/js/glightbox.min.js"></script>
+
+    <script type="text/javascript">
+      const lightbox = GLightbox({
+        'touchNavigation': true,
+        'href': 'https://www.youtube.com/watch?v=J9lS14nM1xg',
+        'type': 'video',
+        'source': 'youtube', //vimeo, youtube or local
+        'width': 900,
+        'autoPlayVideos': 'true',
+});
+    
+    </script>
+     <script src="assets/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
